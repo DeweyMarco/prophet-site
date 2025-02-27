@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+a {
+    color: #89cff0; /* Light blue links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #64b5f6;
+}
+
+header {
+    background-color: #1e1e1e; /* Slightly lighter dark header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333; /* Subtle border */
+}
+
+nav a {
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px; /* Limit content width */
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #1e1e1e;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #89cff0;
+    color: #121212;
+    padding: 12px 25px; /* Standard padding */
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Standard font size */
+}
+
+.button:hover {
+    background-color: #64b5f6;
+}
+
+.services {
+    margin-bottom: 40px;
+}
+
+.services h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #777;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+}
+
+/* Add style for the api pages */
+section {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+section h2 {
+    margin-bottom: 15px;
+}
+
+.team-member {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+}
+
+.member-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Add space between header and description */
+}
+
+.profile-pic {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px; /* Reduced space */
+    object-fit: cover;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin: 0; /* Remove default margin */
+}
+
+.team-member p {
+    line-height: 1.6;
+}

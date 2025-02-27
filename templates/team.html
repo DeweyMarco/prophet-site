@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prophet - About Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Prophet</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/team">Our Team</a>
+            <a href="/demo">Demo</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <div class="member-header">
+                    <img src="{{ url_for('static', filename='images/mateo.jpeg') }}" alt="Mateo Perez" class="profile-pic">
+                    <h3>Mateo Perez - CEO</h3>
+                </div>
+                <p>Mateo Perez is a PhD student with an impressive track record in reinforcement learning. With over 350 citations, 20 publications, and an h-index of 8, he brings deep research expertise to Prophet. His work, including two invited talks to leading research groups, showcases his innovative approach to AI. Mateo's PhD research in reinforcement learning began during his undergraduate studies in 2018.</p>
+                <p>Google Scholar Profile: <a href="https://scholar.google.com/citations?user=YqBCNnQAAAAJ" target="_blank">View Profile</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/mateo-perez/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+
+            <div class="team-member">
+                <div class="member-header">
+                    <img src="{{ url_for('static', filename='images/marco.jpeg') }}" alt="Marco Dewey" class="profile-pic">
+                    <h3>Marco Dewey - CTO</h3>
+                </div>
+                <p>Marco Dewey recently graduated with his Master's in software testing, his thesis explored the viability of using transformer-based LLMs for automated test suite generation in production software. He has been at the forefront of automating software testing with LLMs since 2022. His deep understanding of LLMs and their application to software testing drives Prophet's technological innovation.</p>
+                <p>Thesis: <a href="https://scholar.sun.ac.za/server/api/core/bitstreams/ed3a0d90-749c-420d-9d25-a8909f8ad192/content" target="_blank"> LLM's and Software Testing</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/marco-dewey/" target="_blank">LinkedIn Profile</a></p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Prophet</p>
+    </footer>
+</body>
+</html>
